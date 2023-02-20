@@ -1,9 +1,3 @@
-
-def upp_char(languages):
-    """Переводим буквы из строчных в заглавные"""
-    upp_languages = list(map(str.upper, languages))
-    return upp_languages
-
 def count_letter(list_languages, letter):
     count = 0
     for word in list_languages:
